@@ -298,9 +298,9 @@ QBShared.Items = {
 	['filled_evidence_bag'] 		 = {['name'] = 'filled_evidence_bag', 			['label'] = 'Evidence Bag', 			['weight'] = 200, 		['type'] = 'item', 		['image'] = 'evidence.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'A filled evidence bag to see who committed the crime >:('},
 	['armor'] 		 				 = {['name'] = 'armor', 						['label'] = 'Armor', 					['weight'] = 5000, 	    ['type'] = 'item', 		['image'] = 'armor.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Some protection won\'t hurt... right?'},
 	['heavyarmor'] 		 			 = {['name'] = 'heavyarmor', 					['label'] = 'Heavy Armor', 				['weight'] = 5000, 	    ['type'] = 'item', 		['image'] = 'armor.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Some protection won\'t hurt... right?'},
-	['weed_brick'] 		 			 = {['name'] = 'weed_brick', 					['label'] = 'Weed Brick', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weed_brick.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '1KG Weed Brick to sell to large customers.'},
-	['coke_brick'] 		 			 = {['name'] = 'coke_brick', 					['label'] = 'Coke Brick', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'coke_brick.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Heavy package of cocaine, mostly used for deals and takes a lot of space'},
-	['coke_small_brick'] 		 	 = {['name'] = 'coke_small_brick', 				['label'] = 'Coke Package', 			['weight'] = 350, 		['type'] = 'item', 		['image'] = 'coke_small_brick.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Small package of cocaine, mostly used for deals and takes a lot of space'},
+	['weed_brick'] 		 			 = {['name'] = 'weed_brick', 					['label'] = 'Weed Brick', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weed_brick.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '1KG Brick of Weed.'},
+	['coke_brick'] 		 			 = {['name'] = 'coke_brick', 					['label'] = '1KG Coke Brick', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'coke_brick.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '1KG Brick of Cocaine'},
+	['coke_small_brick'] 		 	 = {['name'] = 'coke_small_brick', 				['label'] = '100G Coke Package', 		['weight'] = 350, 		['type'] = 'item', 		['image'] = 'coke_small_brick.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '100G Brick of Cocaine'},
 	['sandwich'] 				 	 = {['name'] = 'sandwich', 			  	  		['label'] = 'Sandwich', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'sandwich.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Nice bread for your stomach'},
 	['electronickit'] 				 = {['name'] = 'electronickit', 			  	['label'] = 'Electronic Kit', 			['weight'] = 100, 		['type'] = 'item', 		['image'] = 'electronickit.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = {accept = {'gatecrack'}, reward = 'trojan_usb', anim = nil}, ['description'] = 'If you\'ve always wanted to build a robot you can maybe start here. Maybe you\'ll be the new Elon Musk?'},
 	['gatecrack'] 				 	 = {['name'] = 'gatecrack', 			  	  	['label'] = 'Gatecrack', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'usb_device.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Handy software to tear down some fences'},
@@ -381,6 +381,14 @@ QBShared.Items = {
 	['stripedbass'] 			     = {['name'] = 'stripedbass', 			        ['label'] = 'Striped Bass',             ['weight'] = 1111,      ['type'] = 'item',      ['image'] = 'stripedbass.png',          ['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A Striped Bass'},
 	['fishingrod'] 			 		 = {['name'] = 'fishingrod', 					['label'] = 'Fishing Rod', 				['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'fishingrod.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fishing rod for adventures with friends!!'},	
 	['fishingbait'] 			     = {['name'] = 'fishingbait', 					['label'] = 'Fish Bait', 				['weight'] = 400, 		['type'] = 'item', 		['image'] = 'fishbait.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fish bait'},
+	["burnerphone"]                  = {["name"] = "burnerphone",                   ["label"] = "Burner Phone",             ["weight"] = 1000,      ["type"] = "item",      ["image"] = "burner.png",               ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A phone with some odd numbers in"},
+	
+	-- Added
+	
+	["bluechip"]                     = {["name"] = "bluechip",                      ["label"] = "Blue Decryption Key",      ["weight"] = 1000,      ["type"] = "item",      ["image"] = "bluechip.png",             ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A weird Blue USB?"},
+	["redchip"]                      = {["name"] = "redchip",                       ["label"] = "Red Decryption Key",       ["weight"] = 1000,      ["type"] = "item",      ["image"] = "redchip.png",              ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A weird Red USB?"},
+	["greenchip"]                    = {["name"] = "greenchip",                     ["label"] = "Green Decryption Key",     ["weight"] = 1000,      ["type"] = "item",      ["image"] = "greenchip.png",            ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A weird Green USB?"},
+	["methlab"]                      = {["name"] = "methlab",                       ["label"] = "Meth Lab",                 ["weight"] = 20000,     ["type"] = "item",      ["image"] = "methlab.png",              ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A Meth Lab"},	
 }
 
 -- // HASH WEAPON ITEMS, NEED SOMETIMES TO GET INFO FOR CLIENT
@@ -511,6 +519,22 @@ QBShared.Gangs = {
                 name = 'Shot Caller'
             },
 			['3'] = {
+                name = 'Steppa',
+				isboss = false
+			},
+			['4'] = {
+                name = 'Yung Balla',
+				isboss = false
+			},
+			['5'] = {
+                name = 'Balla',
+				isboss = false
+			},
+			['6'] = {
+                name = 'Capo',
+				isboss = false
+            },
+			['7'] = {
                 name = 'Boss',
 				isboss = true
             },
@@ -597,8 +621,8 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = 'Freelancer',
-                payment = 10
+                name = 'Unemployed',
+                payment = 4
             },
         },
 	},
@@ -608,24 +632,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 14
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 75
+                payment = 19
             },
 			['2'] = {
                 name = 'Sergeant',
-                payment = 100
+                payment = 25
             },
 			['3'] = {
                 name = 'Lieutenant',
-                payment = 125
+                payment = 28
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 37
             },
         },
 	},
@@ -635,24 +659,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 14
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 75
+                payment = 18
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 100
+                payment = 25
             },
 			['3'] = {
                 name = 'Surgeon',
-                payment = 125
+                payment = 30
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 36
             },
         },
 	},
@@ -662,24 +686,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 13
             },
 			['1'] = {
                 name = 'House Sales',
-                payment = 75
+                payment = 18
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 100
+                payment = 23
             },
 			['3'] = {
                 name = 'Broker',
-                payment = 125
+                payment = 29
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 35
             },
         },
 	},
@@ -689,24 +713,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 2
             },
 			['1'] = {
                 name = 'Driver',
-                payment = 75
+                payment = 2
             },
 			['2'] = {
                 name = 'Event Driver',
-                payment = 100
+                payment = 2
             },
 			['3'] = {
                 name = 'Sales',
-                payment = 125
+                payment = 2
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 2
             },
         },
 	},
@@ -716,24 +740,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 12
             },
 			['1'] = {
                 name = 'Showroom Sales',
-                payment = 75
+                payment = 15
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 100
+                payment = 20
             },
 			['3'] = {
                 name = 'Finance',
-                payment = 125
+                payment = 23
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 27
             },
         },
 	},
@@ -742,25 +766,38 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Painter',
+                payment = 15
             },
 			['1'] = {
-                name = 'Novice',
-                payment = 75
+                name = 'Bodywork',
+                payment = 19
             },
 			['2'] = {
-                name = 'Experienced',
-                payment = 100
+                name = 'Bodywork +',
+                payment = 25
             },
 			['3'] = {
-                name = 'Advanced',
-                payment = 125
+                name = 'Tuners',
+                payment = 30
             },
 			['4'] = {
+                name = 'Senior Tuner',
+                payment = 32
+            },
+			['5'] = {
+                name = 'Floor Manager',
+                payment = 37
+            },
+			['6'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 42
+            },
+			['7'] = {
+                name = 'Director',
+				isboss = true,
+                payment = 45
             },
         },
 	},
@@ -780,7 +817,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Associate',
-                payment = 50
+                payment = 30
             },
         },
 	},
@@ -790,7 +827,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Journalist',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -800,7 +837,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Driver',
-                payment = 50
+                payment = 17
             },
         },
 	},
@@ -810,7 +847,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Driver',
-                payment = 50
+                payment = 16
             },
         },
 	},
@@ -820,7 +857,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Collector',
-                payment = 50
+                payment = 12
             },
         },
 	},
@@ -830,7 +867,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Picker',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -840,7 +877,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Sales',
-                payment = 50
+                payment = 12
             },
         },
 	},
